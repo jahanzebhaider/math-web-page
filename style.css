@@ -1,6 +1,6 @@
 #container{
     width: 1050px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     
     margin: 0 auto;
 
@@ -45,4 +45,83 @@ padding: 5px;
 }
 .clear{
     clear: both;
+}
+#menu{
+    height: 70px;
+    background: linear-gradient(#F8F594,#D5D533);
+    padding: 7px 0px;
+}
+
+ul{
+    list-style: none;
+}
+#menu ul li{
+    float: left;
+    padding: 0 30px;
+    height: 30PX;
+    border-right: 1px solid #861BBF ;
+  
+}
+#menu ul li a:hover, #menu ul li a.active{
+font-weight: bold;
+font-size: 18px;
+
+}
+#menu ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #861BBF;
+    line-height: 30px;
+    transition:font-size 0.3s linear ;
+     
+}
+#menue ul li:last-child{
+    border-right: none;
+}
+#introduction{
+    background: linear-gradient(#F8F594,#D5D533);
+    padding: 30px;
+    margin:20px 0px;
+}
+#introduction h3{
+    font-size: 45px;
+    color: #316901;
+    font-weight: normal;
+}
+#introduction  p{
+font-size: 25px;
+color:#316901 ;
+text-align: justify ;
+}
+.sidebar{
+ height: 500px;
+ width: 450px;
+ border: 1px solid black;
+ border-radius: 20px;
+ padding: 10px 30px;
+}
+#sidebar1{
+float: left;
+}
+#sidebar2{
+    float: right;
+}
+.sidebar h3{
+    color: #861BBF;
+    font-size: 30px;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #861BBF;
+    transition: font-weight 0.5s ease-in-out ;
+}
+.sidebar ul li a:hover , .sidebar ul li a.active{
+font-weight: bold;
+color: #316901;
+}
+#sidebar1 ul li{
+    padding:4px 0px;
+    list-style-image: url(../mathwbpage/images/arrow.png);
+    padding-left: 10px;
 }

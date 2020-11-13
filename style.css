@@ -105,6 +105,7 @@ float: left;
 }
 #sidebar2{
     float: right;
+
 }
 .sidebar h3{
     color: #861BBF;
@@ -124,4 +125,20 @@ color: #316901;
     padding:4px 0px;
     list-style-image: url(../mathwbpage/images/arrow.png);
     padding-left: 10px;
+}
+#sidebar2 ul li{
+padding-bottom: 10px;
+list-style-image: url(../mathwbpage/images/tick.png);
+margin-left: px;
+padding-top: 10px;
+
+}
+.footer{
+    height: 80px;
+    background: linear-gradient(#f6f390,#d5d533);
+    /* padding: 0px 0px 0px 20px; */
+    
+}
+.footer p{
+padding: 30px 20px;
 }
